@@ -1,0 +1,478 @@
+:root {
+--header-background-color:#FFFFFF;
+--hover-focus-color:#2196F3;
+--head-dark-color:#212121;
+--body-dark-color:#212121;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+body {
+    font-family: "Roboto" , sans-serif;
+    background-color: var(--header-background-color);
+}
+
+ .list {
+    list-style: none;
+} 
+
+.link {
+    text-decoration: none;
+} 
+
+[href] {
+    text-decoration: none;
+} 
+
+ /* ------------------HEADER------------------ !!!! */
+.header {
+    background-color: var(--header-background-color);
+    border: 1px solid;
+    padding-top: 24px;
+    padding-bottom: 25px;
+   
+}
+
+.link-header {
+    font-family: "Raleway" , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;    
+    letter-spacing: 0.03em;
+    color: var(--head-dark-color);
+    margin-right: 93px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-list-one {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.header-list-one > .header-item-one:first-child {
+    margin-right: 50px;
+
+}
+
+.header-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+
+.logo {
+color: #2196F3;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--body-dark-color);
+}
+
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--hover-focus-color);
+}
+
+.header-link-one {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-link-one:hover,
+.header-link-one:focus {
+    color:var(--hover-focus-color);
+}
+
+/* ------------------HERO----------------- */
+
+.hero {
+    background-color:#2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px; 
+    text-align:center}
+
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFf;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    Width: 200px;
+    height: 50px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #FFFfFF;
+    justify-content: center;
+   }
+
+
+.hero-btn:hover,
+.hero-btn:focus {
+   color:  #FFFFFF;
+}
+.hero-btn {
+    background-color: #2196F3;
+    margin: auto;
+}
+
+/* --------------------------SECTION_ABOUT------------------------ */
+.about {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.about-list {
+    display: flex;
+    flex-wrap: nowrap;
+   margin: -15px;
+}
+
+.about-item {
+    width: calc(100% / 4 - 30px);
+    margin: 15px;
+}
+
+
+.about-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--body-dark-color);
+    margin-bottom: 10px;
+
+}
+
+.about-pgf {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    
+    
+}
+
+/* ----------------------------------SECTION-FOTO---------------------------------- */
+
+.project-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--body-dark-color);
+    margin-bottom: 50px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-title-img:not(:last-child) {
+    margin-right: 30px;
+}
+
+.project-title-img {
+ flex-basis:calc((100% - 90px) / 3)
+}
+
+
+
+
+
+
+
+
+
+/* -------------------------TEAM------------------------- */
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    /* margin: -15px; */
+    width: 1200px;
+}
+
+.worker {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-team {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: calc(100% / 4 - 30px);
+    justify-content: center;
+}
+
+
+.about-team:not(:last-child) {
+ margin-right: 30px;
+}
+
+.work-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--body-dark-color);
+    margin-bottom: 50PX;
+}
+
+
+.work-list-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--body-dark-color);
+    margin-top: 30;
+    margin-bottom: 10px;
+}
+
+.work-pgf {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+
+/* -------------------------FOOTER------------------------- */
+
+.footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-list {
+    padding: 0;
+    margin: 0;
+}
+
+.logo-logo {
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    display: block;
+    flex-wrap: wrap;
+}
+
+.link-footer {
+    font-family: "Raleway" , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;    
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    /* margin-bottom: 60px; */
+}
+
+
+.footer-item:not(:last-child) {
+margin-bottom: 9px;
+}
+
+.footer-link-city {
+    font-family: "Roboto" , sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-link-city:hover,
+.footer-link-city:focus {
+    
+    color: var(--hover-focus-color);
+}
+
+
+.footer-link {
+    font-family: "Roboto" , sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover, 
+.footer-link:focus {
+   color:  var(--hover-focus-color);
+}
+
+
+
+
+
+
+/* --------------------------PORTFOLIO-------------------------- */
+
+/* ХЕДЕР ВЗЯТИЙ ІЗ INDEX.HTML */
+
+/* ------------------------------MAIN BUTTON------------------------------ */
+
+
+.main {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.btn {
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 6px 22px;  
+}
+
+.title-box {
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+margin: 0;
+}
+
+.content-site {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+margin: 0;
+}
+
+
+.list-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-left: 0;
+    margin: 0;
+}
+
+.list-but:not(:last-child) {
+    margin-right: 8px;
+}
+.pict-list {
+    margin: 0;
+}
+
+.description {
+    padding: 20px 24px;
+}
+
+
+.pict-list:nth-last-child(-n + 3) {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    
+}
+.list-boxing:nth-child(-n + 6) {
+    margin-bottom: 30px;
+}
+.list-boxing:not(:nth-child(3n + 3)) {
+    margin-right: 30px;
+}
+
+.main-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+cursor: pointer;
+
+}
+
+.btn:hover,
+.btn:focus {
+background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.list-box {
+width: 370px;
+height: 404px;
+left: 215px;
+top: 262px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+}
+
+
+

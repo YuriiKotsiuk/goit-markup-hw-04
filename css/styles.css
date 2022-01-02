@@ -116,6 +116,12 @@ color: #2196F3;
 
 .hero {
     background-color:#2F303A;
+    background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
     padding-top: 200px;
     padding-bottom: 200px; 
     text-align:center}
@@ -227,6 +233,7 @@ color: #2196F3;
 
 /* -------------------------TEAM------------------------- */
 .team {
+    background-color: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -235,14 +242,57 @@ color: #2196F3;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    /* margin: -15px; */
     width: 1200px;
 }
 
 .worker {
     padding-top: 30px;
+    
+    margin-bottom: 16px;
+}
+
+.worker-social-link {
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+.worker-social-link:hover,
+.worker-social-link:focus {
+    background-color: #2196F3;
+    color: #ffffff;
+}
+
+/* .worker-social-link:hover .worker-social-icon,
+.worker-social-link:focus .worker-social-icon {
+    fill: #ffffff ;
+} */
+
+.worker-social-icon {
+    fill: currentColor;
+}
+
+/* .worker-social-icon:hover,
+.worker-social-icon:focus {
+fill: #ffffff;
+} */
+
+.worker-social-list {
+    display: flex;
+    justify-content: center;
     padding-bottom: 30px;
 }
+
+
+.worker-social-item + .worker-social-item {
+    margin-left: 10px;
+}
+ 
 
 .about-team {
     background: #FFFFFF;

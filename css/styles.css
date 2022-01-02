@@ -163,8 +163,42 @@ color: #2196F3;
 }
 
 /* --------------------------SECTION_ABOUT------------------------ */
-.about {
+.static {
     padding-top: 94px;
+    padding-bottom: 30px;
+}
+
+.static-list {
+    display: flex;
+    justify-content: center;
+}
+
+.static-item {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.static-item + .static-item {
+    margin-left: 30px;
+}
+
+.static-icon {
+    fill: #212121;
+}
+
+.worker-social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    padding-top: 0px;
     padding-bottom: 94px;
 }
 
@@ -276,6 +310,11 @@ color: #2196F3;
 .worker-social-icon {
     fill: currentColor;
 }
+
+.worker-social-icon {
+    fill: #AFB1B8;
+}
+    
 
 /* .worker-social-icon:hover,
 .worker-social-icon:focus {

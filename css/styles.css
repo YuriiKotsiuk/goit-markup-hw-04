@@ -424,7 +424,11 @@ color: #212121;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    
+}
+
+.clients-item:hover,
+.clients-item:focus {
+    color: #2196F3;
 }
 
 .clients-item + .clients-item {
@@ -533,8 +537,24 @@ text-transform: uppercase;
 
 }
 
+.footer-social-item + .footer-social-item {
+    margin-left: 10px;
+}
+
 .footer-social-link {
-    fill: #FFFFFF
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    fill: #FFFFFF;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color:#2196F3;
 }
 
 

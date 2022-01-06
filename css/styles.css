@@ -516,7 +516,26 @@ margin-bottom: 9px;
 }
 
 
+.footer-title {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+    color: #ffffff;
+}
 
+.footer-social-list {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-social-link {
+    fill: #FFFFFF
+}
 
 
 

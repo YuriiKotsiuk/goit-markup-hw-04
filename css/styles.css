@@ -17,7 +17,9 @@ body {
     font-family: "Roboto" , sans-serif;
     background-color: var(--header-background-color);
 }
-
+ul {
+    list-style: none;
+}
  .list {
     list-style: none;
 } 
@@ -33,9 +35,9 @@ body {
  /* ------------------HEADER------------------ !!!! */
 .header {
     background-color: var(--header-background-color);
-    border: 1px solid;
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;;
 }
 
 .link-header {
@@ -501,9 +503,16 @@ color: #212121;
     /* margin-bottom: 60px; */
 }
 
-/* .footer-container-list {
+.footer-container-list {
     display: flex;
-} */
+    align-items: baseline;
+}
+.footer-right-container {
+    margin-left: 70px;
+    display: inline-block;
+    align-items: baseline;
+    
+}
 
 .footer-item:not(:last-child) {
 margin-bottom: 9px;
@@ -544,10 +553,11 @@ margin-bottom: 9px;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
     color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .footer-social-list {

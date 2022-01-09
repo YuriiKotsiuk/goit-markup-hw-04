@@ -198,7 +198,6 @@ border: none;
 /* --------------------------SECTION_ABOUT------------------------ */
 .static {
     padding-top: 94px;
-    padding-bottom: 30px;
 }
 
 .static-list {
@@ -214,6 +213,7 @@ border: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .static-item + .static-item {
@@ -222,6 +222,9 @@ border: none;
 
 .static-icon {
     fill: #212121;
+    justify-content: center;
+    align-content: center;
+    
 }
 
 .worker-social-list {
@@ -267,6 +270,10 @@ border: none;
 }
 
 /* ----------------------------------SECTION-FOTO---------------------------------- */
+
+.foto {
+    padding-bottom: 94px;
+}
 
 .project-title {
     font-size: 36px;
@@ -409,9 +416,13 @@ fill: #ffffff;
 }
 
 /* ------------------------------CLIENTS------------------------------ */
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .clients-title {
-    padding-top: 94px;
+    
     margin-bottom: 50px;
     font-family: Roboto;
 font-style: normal;
@@ -426,14 +437,14 @@ color: #212121;
 .clients-list {
     display: flex;
     justify-content: center;
-    padding-bottom: 94px;
+    
 }
 
 .clients-item {
     display: inline-block;
     content: "";
-    
     cursor: pointer;
+    
 }
 
 .clients-link {
@@ -446,6 +457,9 @@ color: #212121;
     border-radius: 4px;
     fill: #AFB1B8;
     color: #AFB1B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .clients-link:hover,
@@ -460,11 +474,9 @@ color: #212121;
 }
 
 .clients-icon {
-    display: inline-flex;
-    content: "";
-    fill: currentColor;
-    margin: 16px 32px;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 

@@ -282,6 +282,7 @@ border: none;
     letter-spacing: 0.03em;
     color: var(--body-dark-color);
     margin-bottom: 50px;
+    
 }
 
 .project-list {
@@ -293,9 +294,9 @@ border: none;
     margin-right: 30px;
 }
 
-.project-title-img {
+/* .project-title-img {
  flex-basis:calc((100% - 90px) / 3)
-}
+} */
 
 
 
